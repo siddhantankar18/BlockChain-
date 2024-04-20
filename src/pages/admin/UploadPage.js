@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom"; // Import Link from react-router-dom
-import adminLayout from "../hoc/adminLayout";
+import adminLayout from "../../hoc/adminLayout";
 
 const UploadPage = () => {
     const [selectedFile, setSelectedFile] = useState(null);

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from './../common/header';
 import Sidebar from './../common/sidebar';
+import SidebarAdmin from "./../common/sidebarAdmin";
 import { Preloader, Bars } from 'react-preloader-icon';
 
 const adminLayout = (ChildComponent) => {
@@ -34,6 +35,7 @@ const adminLayout = (ChildComponent) => {
             return <div className="d-flex" id="wrapper">
                 {/* <!-- Sidebar--> */}
                 <Sidebar/>
+                <SidebarAdmin/>
                 {/* <!-- Page content wrapper--> */}
                 <div className="main" id="page-content-wrapper">
                     {/* <!-- Top navigation--> */}
