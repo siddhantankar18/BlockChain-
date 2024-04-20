@@ -143,4 +143,8 @@ const SignupPage = () => {
     );
 };
 
-export default authLayout(SignupPage);
+export default authLayout(SignupPage);             
+
+
+
+
