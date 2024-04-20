@@ -7,25 +7,7 @@ class DashboardPage extends React.Component {
     return (
       <>
         <div className="row mt-30" style={{ paddingTop: "25px" }}>
-          <div className="col-xl-3 col-sm-6 mb-3">
-            <div className="card text-white bg-primary o-hidden h-100">
-              <div className="card-body">
-                <div className="card-body-icon">
-                  <i className="fa fa-fw fa-list"></i>
-                </div>
-                <div className="mr-5">Send Request for Certificate...</div>
-              </div>
-              <Link
-                to="/upload"
-                className="card-footer text-white clearfix small z-1"
-              >
-                <span className="float-left">Upload Document</span>
-                <span className="float-right">
-                  <i className="fa fa-angle-right"></i>
-                </span>
-              </Link>
-            </div>
-          </div>
+          
           <div className="col-xl-3 col-sm-6 mb-3">
             <div className="card text-white bg-success o-hidden h-100">
               <div className="card-body">
